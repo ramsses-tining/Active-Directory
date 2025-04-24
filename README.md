@@ -3,7 +3,7 @@ markdown
 Active Directory - Déploiement Automatisé 
 
 Domaine
-- Nom : `aplateforme.io
+- Nom : aplateforme.io
 - NetBIOS : `LAPLATEFORME`
 
 Objectifs
