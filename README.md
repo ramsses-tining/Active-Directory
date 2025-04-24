@@ -26,12 +26,7 @@ config/
 ├── CreateUsersAndGroups.ps1     # Script principal de création utilisateurs + groupes
 ├── users.csv                    # Fichier source des données utilisateurs
 🔄 Commandes utilisées
-
-📌 Installation du domaine
-powershell
-Install-ADDSForest -DomainName "laplateforme.io" -DomainNetbiosName "LAPLATEFORME" -ForestMode "7" -DomainMode "7" -InstallDNS -CreateDnsDelegation:$false -DatabasePath "C:\Windows\NTDS" -LogPath "C:\Windows\NTDS" -SysvolPath "C:\Windows\SYSVOL" -Force
-
-
+ Voir dans le fichier pdf (ram_test) exercice2
 📌 Lancement du script d’importation des utilisateurs :
 powershell
 .\CreateUsersAndGroups.ps1
